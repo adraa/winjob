@@ -57,7 +57,7 @@ const FreeChapter: React.FC = () => {
                 contents: prompt,
             });
 
-            setGeneratedChapter(response.text);
+            setGeneratedChapter(response.text ?? '');
 
         } catch (e) {
             console.error(e);
