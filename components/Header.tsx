@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Header: React.FC = () => {
@@ -7,7 +6,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16 md:h-20">
           <div className="flex-shrink-0">
-            <a href="#" className="text-xl md:text-2xl font-bold tracking-tighter">
+            <a href="/" className="text-xl md:text-2xl font-bold tracking-tighter">
               ISB<span className="text-lime-400">.MY</span>
             </a>
           </div>

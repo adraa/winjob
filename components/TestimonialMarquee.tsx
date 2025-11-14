@@ -146,16 +146,19 @@ const TestimonialMarquee: React.FC = () => {
         <section className="py-12 sm:py-20 bg-[#111111]">
             <div className="container mx-auto">
                 <div className="text-center mb-12">
-                    <h2 className="text-4xl sm:text-5xl font-bold tracking-tighter uppercase">WHAT OUR READERS ARE SAYING</h2>
-                    <div className="h-1.5 w-24 bg-cyan-500 mx-auto mt-4"></div>
+                    <h2 className="text-4xl sm:text-5xl font-bold tracking-tighter uppercase italic">WHAT OUR READERS ARE SAYING</h2>
+                    <div className="relative w-24 h-1.5 mx-auto mt-4">
+                      <div className="absolute bottom-0 left-0 w-full h-0.5 bg-cyan-500"></div>
+                      <div className="absolute bottom-0 right-0 w-1/2 h-0.5 bg-blue-500"></div>
+                    </div>
                 </div>
                 <div className="relative flex w-full flex-col items-center justify-center overflow-hidden rounded-lg">
-                    <Marquee pauseOnHover duration="20s" gap="1rem" className="[--gap:1rem] py-2">
+                    <Marquee pauseOnHover duration="30s" gap="1rem" className="[--gap:1rem] py-2">
                         {firstRow.map((review) => (
                             <ReviewCard key={review.username} {...review} />
                         ))}
                     </Marquee>
-                    <Marquee reverse pauseOnHover duration="20s" gap="1rem" className="[--gap:1rem] py-2">
+                    <Marquee reverse pauseOnHover duration="30s" gap="1rem" className="[--gap:1rem] py-2">
                         {secondRow.map((review) => (
                             <ReviewCard key={review.username} {...review} />
                         ))}

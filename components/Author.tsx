@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Author: React.FC = () => {
@@ -10,12 +9,11 @@ const Author: React.FC = () => {
                         <div className="relative w-48 h-48 sm:w-64 sm:h-64">
                             <div className="absolute inset-0 bg-lime-400 transform -rotate-3"></div>
                             <div className="relative w-full h-full bg-neutral-800 p-2">
-                                {/* Placeholder for an image */}
-                                <div className="w-full h-full bg-neutral-700 flex items-center justify-center">
-                                    <svg xmlns="http://www.w3.org/2000/svg" className="h-24 w-24 text-neutral-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                        <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                                    </svg>
-                                </div>
+                                <img
+                                    src="https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Farhan Rashid, Career Strategist"
+                                    className="w-full h-full object-cover grayscale"
+                                />
                             </div>
                         </div>
                     </div>
