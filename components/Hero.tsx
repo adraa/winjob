@@ -47,28 +47,28 @@ const PainPointCard: React.FC<PainPointCardProps> = ({ imageSrc, tag, thought, s
 
 const painPoints: PainPointCardProps[] = [
   {
-    imageSrc: 'https://i.imgur.com/3Z3eZ9C.jpeg',
+    imageSrc: 'https://i.imgur.com/9G8xhfN.jpeg',
     tag: '9/10 JOB SEEKERS FEEL THIS',
     thought: 'I freeze up when they ask tough questions and can\'t think of good examples.',
     stressLevel: 'CRITICAL',
     stressDots: 5,
   },
   {
-    imageSrc: 'https://i.imgur.com/v82M9bS.jpeg',
+    imageSrc: 'https://i.imgur.com/fbZyrie.jpeg',
     tag: 'THE #1 CONFIDENCE KILLER',
     thought: 'I know I can do the job, but I just can\'t sell myself properly.',
     stressLevel: 'HIGH',
     stressDots: 4,
   },
   {
-    imageSrc: 'https://i.imgur.com/h9S3gJz.jpeg',
+    imageSrc: 'https://i.imgur.com/0863BoR.jpeg',
     tag: 'THE IMPOSTER SYNDROME LOOP',
     thought: 'Other candidates seem to \'click\' with interviewers. Why not me?',
     stressLevel: 'CRITICAL',
     stressDots: 5,
   },
   {
-    imageSrc: 'https://i.imgur.com/A6pPjYw.jpeg',
+    imageSrc: 'https://i.imgur.com/5DUlM51.jpeg',
     tag: 'THE STUMBLE EFFECT',
     thought: 'I always get nervous and stumble over my words during interviews.',
     stressLevel: 'MODERATE',
